@@ -1,0 +1,61 @@
+html {
+  background: rgb(17, 143, 154);
+}
+
+#memes {
+  font-size: 30px;
+  margin-bottom: 240;
+  font-style: italic;
+}
+
+#nosotros {
+  font-size: 30px;
+  margin-top: 140px;
+  font-style: italic;
+}
+
+#productos {
+  font-size: 30px;
+  margin-top: 140px;
+  font-style: italic;
+}
+
+#logo {
+  width: 220px;
+  margin-top: -1%;
+  margin-left: -1%;
+}
+
+#titulo1 {
+  text-align: center;
+  font-size: 4rem;
+  margin-top: -212px;
+  background-color: black;
+  color: rgb(178, 23, 139);
+  font-style: italic;
+  margin-right: -8px;
+}
+
+#barra{
+  background-color: black;
+  text-align: center;
+  height: 140px;
+  margin-top: -85px;
+  margin-left: -8px;
+  margin-right: -8px;
+}
+
+#psearch{
+  width: 700px;
+  height: 40px;
+  margin-top: -20%;
+  margin-left: 30%;
+  border-top: 8px solid rgb(200, 243, 44);
+  border-bottom: 8px solid rgb(240, 24, 24);
+  border-left: 8px solid rgb(40, 19, 236);
+  border-right: 8px solid rgb(40, 19, 236);
+}
+
+#psearch .placeholder{
+  text-align: center;
+}
