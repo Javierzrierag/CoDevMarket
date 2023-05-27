@@ -17,7 +17,7 @@ html {
 
 #productos {
   font-size: 30px;
-  margin-left: 420px;
+  margin-left: 460px;
   margin-right: 1px;
   margin-top: -34px;
 }
@@ -31,7 +31,7 @@ html {
 #titulo1 {
   text-align: center;
   font-size: 4rem;
-  margin-top: -212px;
+  margin-top: -200px;
   margin-bottom: 22px;
   background-color: black;
   color: rgb(178, 23, 139);
@@ -76,4 +76,44 @@ html {
   text-align: center;
   font-size: 2rem;
   margin-top: 200px;
+}
+
+#redes{
+  font-size: 2rem;
+  color: rgb(17, 70, 168);
+  text-align: center;
+}
+
+#mediosdepago{
+  font-size: 2rem;
+  color: rgb(17, 70, 168);
+  text-align: center;
+}
+
+#titulomemes{
+  text-align: center;
+}
+
+#h3memes{
+  text-align: center;
+}
+
+#titulopagos{
+  text-align: center;
+}
+
+#h3pagos{
+  text-align: center;
+}
+
+#titulocontact{
+  text-align: center;
+}
+
+#h3contact{
+  text-align: center;
+}
+
+#tituloprd{
+  text-align: center;
 }
