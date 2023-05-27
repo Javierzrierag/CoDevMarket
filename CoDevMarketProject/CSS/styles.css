@@ -4,20 +4,22 @@ html {
 
 #memes {
   font-size: 30px;
-  margin-bottom: 240;
-  font-style: italic;
+  margin-left: 220px;
+  margin-right: 1px;
 }
 
 #nosotros {
   font-size: 30px;
-  margin-top: 140px;
-  font-style: italic;
+  margin-left: 335px;
+  margin-right: 1px;
+  margin-top: -34px;
 }
 
 #productos {
   font-size: 30px;
-  margin-top: 140px;
-  font-style: italic;
+  margin-left: 420px;
+  margin-right: 1px;
+  margin-top: -34px;
 }
 
 #logo {
@@ -30,6 +32,7 @@ html {
   text-align: center;
   font-size: 4rem;
   margin-top: -212px;
+  margin-bottom: 22px;
   background-color: black;
   color: rgb(178, 23, 139);
   font-style: italic;
@@ -38,25 +41,39 @@ html {
 
 #barra{
   background-color: black;
-  text-align: center;
-  height: 140px;
-  margin-top: -85px;
+  height: 73px;
+  margin-top: -15px;
   margin-left: -8px;
   margin-right: -8px;
 }
 
 #psearch{
+
+  flood-color: black;
   width: 700px;
   height: 40px;
   margin-top: -20%;
   margin-left: 30%;
-  border-top: 8px solid rgb(200, 243, 44);
-  border-bottom: 8px solid rgb(240, 24, 24);
-  border-left: 8px solid rgb(40, 19, 236);
-  border-right: 8px solid rgb(40, 19, 236);
-  padding: 5px;;
+  border-top: 5px solid rgb(200, 243, 44);
+  border-bottom: 5px solid rgb(240, 24, 24);
+  border-left: 5px solid rgb(40, 19, 236);
+  border-right: 5px solid rgb(40, 19, 236);
 }
 
-#psearch .placeholder{
+#algmemes{
   text-align: center;
+  color: rgb(49, 233, 32);
+  font-size: 4rem;
+}
+
+#accesorios{
+  text-align: center;
+  color: rgb(49, 233, 32);
+  font-size: 4rem;
+}
+
+#pie{
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 200px;
 }
