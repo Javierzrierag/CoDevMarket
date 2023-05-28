@@ -3,117 +3,121 @@ html {
 }
 
 #memes {
-  font-size: 30px;
+  font-size: 45px;
   margin-left: 220px;
   margin-right: 1px;
+  display: inline-block;
+
+
 }
 
 #nosotros {
-  font-size: 30px;
-  margin-left: 335px;
-  margin-right: 1px;
-  margin-top: -34px;
+  display: inline-block;
 }
 
 #productos {
-  font-size: 30px;
-  margin-left: 460px;
-  margin-right: 1px;
-  margin-top: -34px;
+  display: inline-block;
 }
 
 #logo {
   width: 220px;
   margin-top: -1%;
   margin-left: -1%;
+
 }
 
 #titulo1 {
   text-align: center;
   font-size: 4rem;
-  margin-top: -200px;
-  margin-bottom: 22px;
+  margin-top: -210px;
+  margin-bottom: 10px;
   background-color: black;
   color: rgb(178, 23, 139);
   font-style: italic;
   margin-right: -8px;
 }
 
-#barra{
+#barra {
   background-color: black;
   height: 73px;
-  margin-top: -15px;
+  margin-top: -5px;
   margin-left: -8px;
   margin-right: -8px;
+
 }
 
-#psearch{
-
+#psearch {
   flood-color: black;
   width: 700px;
   height: 40px;
-  margin-top: -20%;
   margin-left: 30%;
+  margin-bottom: 10px;
   border-top: 5px solid rgb(200, 243, 44);
   border-bottom: 5px solid rgb(240, 24, 24);
   border-left: 5px solid rgb(40, 19, 236);
   border-right: 5px solid rgb(40, 19, 236);
+  border-radius: 10px;
 }
 
-#algmemes{
+#algmemes {
   text-align: center;
   color: rgb(49, 233, 32);
   font-size: 4rem;
 }
 
-#accesorios{
+#accesorios {
   text-align: center;
   color: rgb(49, 233, 32);
   font-size: 4rem;
 }
 
-#pie{
+#pie {
   text-align: center;
   font-size: 2rem;
   margin-top: 200px;
 }
 
-#redes{
+#redes {
   font-size: 2rem;
   color: rgb(17, 70, 168);
   text-align: center;
 }
 
-#mediosdepago{
+#mediosdepago {
   font-size: 2rem;
   color: rgb(17, 70, 168);
   text-align: center;
 }
 
-#titulomemes{
+#titulomemes {
   text-align: center;
 }
 
-#h3memes{
+#h3memes {
   text-align: center;
 }
 
-#titulopagos{
+#titulopagos {
   text-align: center;
 }
 
-#h3pagos{
+#h3pagos {
   text-align: center;
 }
 
-#titulocontact{
+#titulocontact {
   text-align: center;
 }
 
-#h3contact{
+#h3contact {
   text-align: center;
 }
 
-#tituloprd{
+#tituloprd {
   text-align: center;
+}
+
+#contactmemes {
+  text-align: center;
+  font-size: 2rem;
 }
