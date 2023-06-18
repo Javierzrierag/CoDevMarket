@@ -2,28 +2,42 @@ html {
   background: rgb(17, 143, 154);
 }
 
-#memes {
-  font-size: 45px;
-  margin-left: 220px;
-  margin-right: 1px;
-  display: inline-block;
-
-
-}
-
-#nosotros {
-  display: inline-block;
-}
-
-#productos {
-  display: inline-block;
-}
-
 #logo {
   width: 220px;
   margin-top: -1%;
   margin-left: -1%;
 
+}
+
+#memes {
+  margin-left: 206px;
+  margin-right: 1px;
+  background-color: rgb(149, 8, 107);
+}
+
+#nosotros {
+  background-color: blueviolet;
+}
+
+#productos {
+ background-color: rgb(149, 8, 107);
+}
+
+#barra > *{
+  font-size: 45px;
+  border-radius: 10px;
+  display: flex;
+}
+
+#barra {
+  background-color: black;
+  height: 73px;
+  margin-top: -5px;
+  margin-left: -8px;
+  margin-right: -8px;
+  display: flex;
+  gap: 1rem;
+  flex-direction: row;
 }
 
 #titulo1 {
@@ -37,26 +51,18 @@ html {
   margin-right: -8px;
 }
 
-#barra {
-  background-color: black;
-  height: 73px;
-  margin-top: -5px;
-  margin-left: -8px;
-  margin-right: -8px;
-
-}
-
 #psearch {
   flood-color: black;
   width: 700px;
   height: 40px;
   margin-left: 30%;
   margin-bottom: 10px;
-  border-top: 5px solid rgb(200, 243, 44);
+  border-top: 5px solid rgb(236, 240, 24);
   border-bottom: 5px solid rgb(240, 24, 24);
   border-left: 5px solid rgb(40, 19, 236);
   border-right: 5px solid rgb(40, 19, 236);
   border-radius: 10px;
+  display: flex;
 }
 
 #algmemes {
@@ -120,4 +126,14 @@ html {
 #contactmemes {
   text-align: center;
   font-size: 2rem;
+}
+#top > *{
+display: flex;
+justify-content: center;
+align-items:center;
+height: 30vh;
+gap: 2rem;
+}
+#uno, #dos, #tres{
+
 }
