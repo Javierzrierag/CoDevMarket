@@ -22,6 +22,10 @@ html {
   background-color: rgb(149, 8, 107);
 }
 
+a{
+  text-decoration: none;
+}
+
 #barra > * {
   font-size: 25px;
   border-radius: 10px;
@@ -142,6 +146,7 @@ html {
 }
 
 #top > * {
+  max-width: 400px;
   font-size: 20px;
   flex: 1;
   padding: 10px;
