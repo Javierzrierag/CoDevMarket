@@ -6,7 +6,6 @@ html {
   width: 220px;
   margin-top: -1%;
   margin-left: -1%;
-
 }
 
 #memes {
@@ -20,13 +19,19 @@ html {
 }
 
 #productos {
- background-color: rgb(149, 8, 107);
+  background-color: rgb(149, 8, 107);
 }
 
-#barra > *{
-  font-size: 45px;
+#barra > * {
+  font-size: 25px;
   border-radius: 10px;
   display: flex;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+#barra > *:hover {
+  transform: scale(1.1);
 }
 
 #barra {
@@ -127,13 +132,18 @@ html {
   text-align: center;
   font-size: 2rem;
 }
-#top > *{
-display: flex;
-justify-content: center;
-align-items:center;
-height: 30vh;
-gap: 2rem;
-}
-#uno, #dos, #tres{
 
+#top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  gap: 1rem;
+}
+
+#top > * {
+  font-size: 20px;
+  flex: 1;
+  padding: 10px;
+  text-align: center;
 }
