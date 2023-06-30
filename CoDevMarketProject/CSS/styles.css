@@ -3,33 +3,44 @@ html {
 }
 
 #logo {
-  width: 220px;
+  width: 240px;
   margin-top: -1%;
   margin-left: -1%;
 }
 
+#login:hover {
+  transform: scale(1.1);
+}
+
+#login {
+  margin-bottom: 0;
+  margin-left: 1600px;
+  margin-right: 20px;
+  margin-top: -100px;
+  color: aliceblue;
+  font-weight: bold;
+  transition: 0.3s;
+  padding: 5px;
+  font-size: 1rem;
+  display: flex;
+}
+
 #memes {
-  margin-left: 206px;
+  margin-left: 226px;
   margin-right: 1px;
-  background-color: rgb(149, 8, 107);
 }
 
-#nosotros {
-  background-color: blueviolet;
-}
-
-#productos {
-  background-color: rgb(149, 8, 107);
-}
-
-a{
+a.remove {
   text-decoration: none;
 }
 
 #barra > * {
+  padding: 5px;
   font-size: 25px;
   border-radius: 10px;
   display: flex;
+  justify-content: center;
+  align-items: center;
   font-weight: bold;
   transition: 0.3s;
 }
@@ -40,8 +51,8 @@ a{
 
 #barra {
   background-color: black;
-  height: 73px;
-  margin-top: -5px;
+  height: 70px;
+  margin-top: -100px;
   margin-left: -8px;
   margin-right: -8px;
   display: flex;
@@ -50,9 +61,12 @@ a{
 }
 
 #titulo1 {
+  height: 217px;
   text-align: center;
+  justify-content: center;
+  display: flex;
   font-size: 4rem;
-  margin-top: -210px;
+  margin-top: -220px;
   margin-bottom: 10px;
   background-color: black;
   color: rgb(178, 23, 139);
@@ -62,14 +76,12 @@ a{
 
 #psearch {
   flood-color: black;
-  width: 700px;
-  height: 40px;
-  margin-left: 30%;
+  width: 600px;
+  height: 70px;
+  margin-top: -70px;
+  margin-left: 800px;
   margin-bottom: 10px;
-  border-top: 5px solid rgb(236, 240, 24);
-  border-bottom: 5px solid rgb(240, 24, 24);
-  border-left: 5px solid rgb(40, 19, 236);
-  border-right: 5px solid rgb(40, 19, 236);
+  margin-right: 0;
   border-radius: 10px;
   display: flex;
 }
@@ -89,7 +101,7 @@ a{
 #pie {
   text-align: center;
   font-size: 2rem;
-  margin-top: 200px;
+  background-color: black;
 }
 
 #redes {
@@ -101,6 +113,7 @@ a{
 #mediosdepago {
   font-size: 2rem;
   color: rgb(17, 70, 168);
+  align-items: center;
   text-align: center;
 }
 
@@ -114,10 +127,12 @@ a{
 
 #titulopagos {
   text-align: center;
+  font-size: 60px;
 }
 
 #h3pagos {
   text-align: center;
+  background-color: rgb(57, 229, 9);
 }
 
 #titulocontact {
